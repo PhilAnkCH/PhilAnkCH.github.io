@@ -100,8 +100,8 @@ row p {
   font-color: red;
 }
 
-#first{
+.first{
   text: red;
-  text-alignment: center;
+  float: center;
 }
 }
