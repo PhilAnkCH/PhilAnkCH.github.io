@@ -101,3 +101,9 @@ footer li img {
 row p {
   font-color: red;
 }
+
+#first{
+  text: red;
+  text-alignment: center;
+}
+}
