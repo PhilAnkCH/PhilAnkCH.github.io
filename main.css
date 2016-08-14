@@ -30,12 +30,10 @@ header p {
 
 .jumbotron {
   display: flex;
-  align-items: center;
-  background-image: "beach-03.jpg";
   background-size: cover;
   color: #ffffff;
-  height: 500px;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  height: 200px;
+  float: center;
 }
 
 .jumbotron h2 {
