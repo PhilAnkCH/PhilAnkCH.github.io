@@ -5,6 +5,12 @@
      <link rel="stylesheet" type="text/css" href="main.css">
     <script>
       var question_name=prompt("what is your name?");
+      var question_size = prompt("what is your size in cm?")
+      if(question_size <=170){
+        console.log("Sorry but you're really small")
+      };
+      else if(question_size >170){console.log("man you're tall!")};
+      else{console.log(wrong input)}
     </script>
    
   </head>
@@ -15,14 +21,7 @@
        <script>
          document.write(" " + question_name.toUpperCase());
       </script>
-       <script>
-      var question_size = prompt("what is your size in cm?")
-      if(question_size <=170){
-        console.log("Sorry but you're really small")
-      };
-      else if(question_size >170){console.log("man you're tall!")};
-      else{console.log(wrong input)}
-    </script>
+       
       </h2>
     </section>
     <p class="first">
