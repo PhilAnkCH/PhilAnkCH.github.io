@@ -4,15 +4,8 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
      <link rel="stylesheet" type="text/css" href="main.css">
     <script>
-      var question_name=prompt("what is your name?")
-      </script>
-      <script>
-      var question_size = prompt("what is your size in cm?");
-      if(question_size <=170){
-        console.log("Sorry but you're really small")
-      };
-      else if(question_size >170){console.log("man you're tall!")};
-      else{console.log(wrong input)}
+      var question_name=prompt("what is your name?");
+      var question_size = prompt("what is your size in cm?")
     </script>
    
   </head>
@@ -31,6 +24,15 @@
         document.write(question_name.toUpperCase()+" ");
       </script>
       is a really cool name. Your parents must be awesome!!!
+    </p>
+    <p>
+      <script>
+      if(question_size <=170){
+document.write("Sorry but you're really small")
+      };
+      else if(question_size >170){document.write("man you're tall!")};
+      else{document.write(wrong input)}
+    </script>
     </p>
   </body>
 </html>
