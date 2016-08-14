@@ -4,21 +4,30 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
      <link rel="stylesheet" type="text/css" href="main.css">
     <script>
-      var question=prompt("what is your name?");
+      var question_name=prompt("what is your name?");
     </script>
+   
   </head>
   
   <body>
     <section class="jumbotron">
       <h2>Hello
        <script>
-         document.write(" " + question);
+         document.write(" " + question_name);
       </script>
+       <script>
+      var question_size = prompt("what is your size in cm?")
+      if(question_size <=170){
+        console.log("Sorry but you're really small")
+      };
+      else if(question_size >170){console.log("man you're tall!")};
+      else{console.log(wrong input)}
+    </script>
       </h2>
     </section>
     <p class="first">
       <script>
-        document.write(question+" ");
+        document.write(question_name+" ");
       </script>
       is a really cool name. Your parents must be awesome!!!
     </p>
