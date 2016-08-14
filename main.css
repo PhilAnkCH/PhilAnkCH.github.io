@@ -34,6 +34,7 @@ header p {
   color: #ffffff;
   height: 200px;
   float: center;
+  text-align: center;
 }
 
 .jumbotron h2 {
@@ -101,7 +102,7 @@ row p {
 }
 
 .first{
-  text: red;
-  float: center;
+  color: red;
+  text-align: center;
 }
 }
